@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formata-formulario.css">
+    <title>P1 EXEC 01 </title>
+</head>
+
+<style>
+    /* table */
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<body>
+    <form action="exec01.php" method="post">
+        <fieldset>
+            <table class='center'>
+                <tr>
+                    <th>Alunos</th>
+                    <th>Notas</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type=text name=a1 placeholder="Digite o nome do 1o Aluno">
+                    </td>
+                    <td>
+                        <input type=text name=n1 placeholder="Digite a nota do 1o Aluno">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type=text name=a2 placeholder="Digite o nome do 2o Aluno">
+                    </td>
+                    <td>
+                        <input type=text name=n2 placeholder="Digite a nota do 2o Aluno">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type=text name=a3 placeholder="Digite o nome do 3o Aluno">
+                    </td>
+                    <td>
+                        <input type=text name=n3 placeholder="Digite a nota do 3o Aluno">
+                    </td>
+                </tr>
+            </table>
+            <input type=submit>
+        </fieldset>
+    </form>
+</body>
+
+</html>
